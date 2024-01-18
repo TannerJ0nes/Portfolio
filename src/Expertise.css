@@ -1,0 +1,80 @@
+/* src/Expertise.css */
+.expertise {
+  padding: 4rem 0;
+  background-color: #f4f4f4;
+}
+
+.expertise h2 {
+  padding-left: 30px;
+  text-align: left;
+  margin-bottom: 2rem;
+  font-size: 40px;
+  color: #36395A;
+}
+
+.expertise-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.expertise-block {
+  flex-basis: calc(50% - 1rem); 
+  padding: 1rem;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  animation: fadeInAnimation 1s ease forwards; 
+}
+
+/* src/Expertise.css */
+
+/* Styles for the AWS Certification Link/Button */
+.expertise-block a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.expertise-block a:hover {
+  background-color: #0056b3;
+}
+
+
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.expertise-icon {
+  text-align: center; /* Center the icon */
+}
+
+.expertise-icon img {
+  max-width: 50px; /* Adjust the size of the icon */
+  height: auto;
+  border-radius: 60%; /* Add rounded edges */
+}
+
+.expertise-block h3 {
+  margin-top: 0;
+  font-weight: bold;
+  color: #36395A;
+}
+
+.expertise-block p {
+  margin: 0;
+  color: #505050;
+}

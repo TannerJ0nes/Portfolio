@@ -1,0 +1,79 @@
+/* ContactMe.css */
+
+.contact-page {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    opacity: 0; 
+    transform: translateY(20px); 
+    animation: fadeInUpAnimation 1s forwards; 
+  }
+  
+  .contact-content {
+    width: 100%; 
+  }
+  
+  .contact-page h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center; 
+    color: #36395A;
+  }
+  
+  .contact-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: center; 
+    color: #505050;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center-align the list items */
+  }
+  
+  .contact-list li {
+    margin-bottom: 20px;
+  }
+  
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #36395A;
+    color: #FFFFFF;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button-link:hover {
+    background-color: #4D4F6E;
+    color: #FFFFFF;
+  }
+  
+  .contact-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px; /* Add padding to separate content from image */
+  }
+  
+  .contact-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  @keyframes fadeInUpAnimation {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

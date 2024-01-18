@@ -1,0 +1,68 @@
+/* src/AboutPage.css */
+.about-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0; /* Initially hide the content */
+  transform: translateY(20px); 
+  animation: fadeInUpAnimation 1s forwards; 
+}
+
+.about-page h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #36395A;
+}
+
+.about-page h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #36395A;
+}
+
+.about-page p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #505050;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+}
+
+.about-page .contact-info {
+  margin-top: 20px;
+}
+
+.about-page .contact-info a {
+  margin-right: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-page .contact-info a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeInUpAnimation {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
