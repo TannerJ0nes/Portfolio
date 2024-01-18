@@ -20,6 +20,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/works" element={<Works />} />
           <Route path="/contact" element={<ContactMe />} /> {/* Use element prop instead of component */}
+          <Route index element={<HomePage />} />
         </Routes>
       </div>
     </Router>
