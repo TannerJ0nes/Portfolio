@@ -16,10 +16,11 @@ function App() {
       <div className="app">
         <Header />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/Portfolio" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/works" element={<Works />} />
           <Route path="/contact" element={<ContactMe />} /> {/* Use element prop instead of component */}
+          <Route index element={<HomePage />} />
         </Routes>
       </div>
     </Router>

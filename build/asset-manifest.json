@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5d28fe3.css",
-    "main.js": "/static/js/main.d42f8ec4.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/Coding.png": "/static/media/Coding.edeb9ce5a4aefd052e0a.png",
-    "static/media/Pgadmin.png": "/static/media/Pgadmin.7b6a5743359b82de8b77.png",
-    "static/media/HTML2.png": "/static/media/HTML2.7496e480b17dd4ab5a54.png",
-    "static/media/Python1.jpg": "/static/media/Python1.2c5a28a98f5a073bea0c.jpg",
-    "static/media/Python2.jpg": "/static/media/Python2.04b03f4cdd374987ed7e.jpg",
-    "static/media/HTML1.jpg": "/static/media/HTML1.bc00ed75a147d1952668.jpg",
-    "index.html": "/index.html",
-    "main.e5d28fe3.css.map": "/static/css/main.e5d28fe3.css.map",
-    "main.d42f8ec4.js.map": "/static/js/main.d42f8ec4.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.e5d28fe3.css",
+    "main.js": "/Portfolio/static/js/main.c5a429ed.js",
+    "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Coding.png": "/Portfolio/static/media/Coding.edeb9ce5a4aefd052e0a.png",
+    "static/media/Pgadmin.png": "/Portfolio/static/media/Pgadmin.7b6a5743359b82de8b77.png",
+    "static/media/HTML2.png": "/Portfolio/static/media/HTML2.7496e480b17dd4ab5a54.png",
+    "static/media/Python1.jpg": "/Portfolio/static/media/Python1.2c5a28a98f5a073bea0c.jpg",
+    "static/media/Python2.jpg": "/Portfolio/static/media/Python2.04b03f4cdd374987ed7e.jpg",
+    "static/media/HTML1.jpg": "/Portfolio/static/media/HTML1.bc00ed75a147d1952668.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.e5d28fe3.css.map": "/Portfolio/static/css/main.e5d28fe3.css.map",
+    "main.c5a429ed.js.map": "/Portfolio/static/js/main.c5a429ed.js.map",
+    "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5d28fe3.css",
-    "static/js/main.d42f8ec4.js"
+    "static/js/main.c5a429ed.js"
   ]
 }
